@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+   <h1>Ficha Cadastral</h1> 
+
+   <form method="get" action="#">
+
+    Nome:      <input type="text" name="nome" required> <br/>
+    RG:        <input type="number" name="RG" min="1" max="10">
+    CPF:       <input type="number" name="CPF" min="11" max="14"> <br/>
+    Endereço:  <input type="text" name="endereço" required> <br/>
+    
+    Sexo:
+    <select name="Sexo">
+        <option>Masculino</option>
+        <option>Feminino</option>
+    </select>   
+
+    Data de nascimento:  <input type="date" name="nascimento"> <br/>
+
+    Situação Civil:
+    <input type="radio" name="Civil"> Solteiro(a)
+    <input type="radio" name="Civil"> Casado(a)
+    <input type="radio" name="Civil"> Viúvo(a)
+    <br/>
+
+    
+     <button type="reset">Limpar Dados</button>
+ 
+   </form>
+</body>
+</html>
